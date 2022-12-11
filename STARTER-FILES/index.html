@@ -6,13 +6,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>08 - Weather API || Advent of JavaScript</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
+<div class="date">
+  <p id="dayweek"></p>
+  <p id="day"></p>
 
-<script  type="module" src="./static/js/index.js"></script> 
-<script src="./static/js/api.js"></script> 
+  <section id="information">
+    <img id="img-wheater"  src="" alt="imagen del clima">
+    <p id="temp"></p>
+    <p id="description"></p>
+    <div class="humidity">
+      <img id="icon-humidity" src="https://cdn-icons-png.flaticon.com/512/3262/3262966.png" alt="icono de la humedad en el clima">
+      <p  id="p-humidity"></p>
+    </div>
+    <div class="wind-speed">
+      <img id="icon-wind-speed" src="https://cdn-icons-png.flaticon.com/512/1959/1959345.png" alt="icono del viento ">
+      <p id="p-wind-speed"></p>
+    </div>
+    
+  </section>
+</div>
+
+<script   type="module"  src="./static/js/api.js"></script> 
 </body>
 
 </html>
