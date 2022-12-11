@@ -5,7 +5,5 @@ Para esto se consume el API https://weatherstack.com/
 <<<<<<< HEAD
 Se recomienda ver en mozilla, se usa http
 
-
-
 ![image](https://user-images.githubusercontent.com/94869227/206927464-9723b88c-91ab-4bf8-93e6-b5aaf9fdc20f.png)
->>>>>>> ab8a9c0160b894c5de61e98fc2018c16d18e94cd
+
