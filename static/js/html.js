@@ -12,8 +12,8 @@ export function mostrarHTML(datos){
     const dayweek=document.getElementById('dayweek')
     dayweek.textContent= dayInfo[1]
 
-    console.log(document.getElementById('ciudad'))
-    document.getElementById('city').textContent=datos['ciudad']
+    console.log(document.getElementById('city'))
+    document.getElementById('city').value=datos['ciudad']
     document.getElementById('img-wheater').setAttribute('src',datos['img'])
     document.getElementById('description').textContent=datos['descripcion']
     document.getElementById('temp').textContent=datos['temperatura']+'°'
