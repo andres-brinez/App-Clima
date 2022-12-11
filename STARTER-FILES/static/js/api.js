@@ -1,3 +1,4 @@
+import { mostrarHTML } from "./html.js"
 
 export async  function conection(city){
     // const API = 'http://api.weatherstack.com/current?access_key=c42df8df799b1f4740b2055d2396b44a&query='
@@ -59,19 +60,20 @@ conection('cajamarca').then
     )
 
 
-function guardarDatos(datos){
+ export  function guardarDatos(datos){
     const informacion={
         'ciudad':datos.request.query,
         'temperatura':datos.current.temperature,
         'descripcion':datos.current.weather_descriptions[0],
-        'icono':datos.current.weather_icons[0],
+        'img':datos.current.weather_icons[0],
         'viento':datos.current.wind_speed,
         'humedad':datos.current.humidity,
-        
-
     }
-    console.log(informacion)
+    mostrarHTML(informacion)
+    return informacion
 }
+
+
 
 
 
