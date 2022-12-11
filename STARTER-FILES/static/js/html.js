@@ -19,11 +19,6 @@ export function mostrarHTML(datos){
     document.getElementById('p-wind-speed').textContent=datos['viento']
 
 
-
-
-
-
-
 }
 
 
