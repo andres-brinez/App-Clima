@@ -52,7 +52,7 @@ export async  function conection(city){
     return  data
 
 }
-
+// lo que falta es traer los datos de localizacion 
 conection('cajamarca').then
     (        
         data => {guardarDatos(data)}
